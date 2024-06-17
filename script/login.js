@@ -6,19 +6,21 @@ let usuarioLogado = null;
 (()=>{
     usuarioLogado = localStorage.getItem("usuario");
     if(usuarioLogado){
-        window.location.href = "file:///tmp/guest-0gmzlr/Downloads/g243I2t-main/capsula_tempo//logado.html";
+        window.location.href = "/tmp/guest-o3xyuc/Downloads/g243i2t-main/index.html";
     }
 })();
 
 btnLogin.onclick = (e) =>{
+
     e.preventDefault();
+
     let usuario = inputUsuario.value;
     let senha = inputSenha.value;
     if(usuario){
-        if(usuario === "izalinda"){
-            if(senha === "123"){
-                localStorage.setItem('usuario', usuario);
-                window.location.href = "file:///tmp/guest-0gmzlr/Downloads/g243I2t-main/capsula_tempo//logado.html"
+        if(usuario === "ezequiel"){
+            if(senha === "oinsi"){
+                localStorage.setItem("usuario",usuario);
+                window.location.href = "/tmp/guest-o3xyuc/Downloads/g243i2t-main/logado.html";
             }
         }else{
             inputUsuario.focus();
