@@ -1,6 +1,6 @@
-.root {
-    --fundoLogin : rgb(10, 10, 10);
-    --corfundoLogin :  rgb(10, 10, 10);
-    --btnSistema : rgb(34, 243, 226);
-    --corFonteBotao : black;
+:root {
+    --fundoLogin: rgb(245, 217, 181);
+    --fonte: black;
+    --btnSistema: rgb(253, 174, 26);
+    --btnSistemaHover: rgb(255, 184, 126);
 }
